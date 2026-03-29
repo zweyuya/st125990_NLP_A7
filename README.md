@@ -7,7 +7,9 @@
 This is the running of n8n docker and by using  ngrok tunnel the Production URL is accessible from the internet.
 
 2.  MCP Server Workflow
+
 ![image](MCP_Server_Workflow.png)
+
 This screenshot (MCP_Server_Workflow.png) shows the MCP Server workflow configured in n8n. 
 The workflow is built around an MCP Server Trigger node, which acts as the central hub exposing three internal tools to any connected MCP Client. 
 The three tools are: a Calculator node for performing mathematical computations, a Date & Time node for retrieving current date and time information, and a Code Tool (Text Formatter) for processing and transforming text. 
